@@ -159,7 +159,7 @@ function loadSongItem() {
 
 function onBandChange(form, animation) {
     form.find('#id_special_band').closest('.form-group').hide(animation);
-    if (form.find('#id_i_band').val() == '6') {
+    if (form.find('#id_i_band').val() == '10') {
         form.find('#id_special_band').closest('.form-group').show(animation);
     }
 }
